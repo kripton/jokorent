@@ -177,7 +177,7 @@ CREATE TABLE IF NOT EXISTS "inventoryModels" (
   "make" TEXT NOT NULL,                        -- Make/Producer
   "name" TEXT NOT NULL,                        -- Name/model
   "type" TEXT,                                 -- "cable", "microphone", "speaker", "amp", .... Mostly used for filtering. OR NULL
-  "weight" INTEGER,                            -- weight in grams. Used to calculate summed weight of a delivery
+  "weight" INTEGER,                            -- weight in kilograms. Used to calculate summed weight of a delivery
   PRIMARY KEY("id")
 );
 
